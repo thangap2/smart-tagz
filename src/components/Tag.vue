@@ -19,7 +19,7 @@
       class="tag-name"
       @dblclick="handleDoubleClick"
     >{{ name }}</span>
-    <button
+    <button type="button"
       v-if="canShowRemoveBtn"
       @click="handleRemove(id)"
     >
